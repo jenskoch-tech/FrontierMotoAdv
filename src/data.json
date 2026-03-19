@@ -1,0 +1,39 @@
+{
+  "currentRide": {
+    "title": "Stallikon → Varenna → TET Italy East",
+    "subtitle": "Ride gravel roads through the Alps and Dolomites",
+    "duration": "4–5 days",
+    "distance": "~900–1,100 km",
+    "offRoad": "40–60%",
+    "difficulty": "Intermediate",
+    "groupSize": "max 3 riders",
+    "description": [
+      "Fast ride south from Switzerland",
+      "Join Trans Euro Trail near Lake Como",
+      "Continue east",
+      "Terrain: gravel, mountain tracks, technical sections",
+      "Clearly state: not for beginners"
+    ],
+    "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=2070"
+  },
+  "upcomingRides": [
+    {
+      "id": "balkans",
+      "title": "Balkans Overland",
+      "subtitle": "Montenegro & Albania",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=2074"
+    },
+    {
+      "id": "croatia",
+      "title": "Croatia Coastal",
+      "subtitle": "Adriatic Islands",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=2070"
+    },
+    {
+      "id": "pyrenees",
+      "title": "Pyrenees Traverse",
+      "subtitle": "France & Spain",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2070"
+    }
+  ]
+}
