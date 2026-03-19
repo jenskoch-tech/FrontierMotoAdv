@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Frontier Moto Adventure
 
-# Run and deploy your AI Studio app
+Private, invitation-only self-guided motorcycle adventure rides across Europe.
 
-This contains everything you need to run your app locally.
+## Deployment to GitHub Pages
 
-View your app in AI Studio: https://ai.studio/apps/52342fdd-298e-4804-aaaf-6e429b0d3c5b
+To deploy this website to GitHub Pages, follow these steps:
 
-## Run Locally
+1.  **Export to GitHub:** Use the **Settings** (⚙️) -> **Export to GitHub** feature in AI Studio.
+2.  **Enable GitHub Pages:**
+    *   Go to your repository on GitHub.
+    *   Click on **Settings** -> **Pages**.
+    *   Under **Build and deployment** -> **Source**, select **GitHub Actions**.
+3.  **Trigger Deployment:**
+    *   The included GitHub Action (`.github/workflows/deploy.yml`) will automatically build and deploy your site whenever you push to the `main` branch.
+    *   Once the action finishes, your site will be live at `https://<your-username>.github.io/<your-repo-name>/`.
 
-**Prerequisites:**  Node.js
+## Local Development
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  Clone the repository.
+2.  Run `npm install`.
+3.  Run `npm run dev` to start the local development server.
+4.  Run `npm run build` to create a production build in the `dist/` directory.
