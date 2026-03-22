@@ -19,3 +19,22 @@ body {
     40% {transform: translateY(-10px) translateX(-50%);}
     60% {transform: translateY(-5px) translateX(-50%);}
 }
+.social-icon {
+  color: #888;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.2s;
+  margin-left: 8px;
+}
+.social-icon:hover {
+  color: #ffffff;
+}
+.nav-social {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border-left: 1px solid #333;
+  padding-left: 16px;
+  margin-left: 8px;
+}
