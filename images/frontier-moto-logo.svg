@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80">
+  <!-- Dark background version -->
+  <rect width="340" height="80" fill="#0a0a0a" rx="0"/>
+
+  <!-- Mountain icon -->
+  <g transform="translate(12, 10)">
+    <polyline points="3,45 16,20 24,32 31,22 45,45"
+      fill="none" stroke="white" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Amber dot bottom-right of icon -->
+  <circle cx="56" cy="50" r="5" fill="#d97706"/>
+  <circle cx="56" cy="50" r="5" fill="none" stroke="#0a0a0a" stroke-width="2"/>
+
+  <!-- FRONTIER -->
+  <text x="70" y="38"
+    font-family="Inter, Arial Black, sans-serif"
+    font-weight="900" font-size="23"
+    letter-spacing="2.5" fill="white">FRONTIER</text>
+
+  <!-- MOTO ADVENTURE -->
+  <text x="72" y="54"
+    font-family="Inter, Arial, sans-serif"
+    font-weight="600" font-size="9.5"
+    letter-spacing="4" fill="#d97706">MOTO ADVENTURE</text>
+</svg>
